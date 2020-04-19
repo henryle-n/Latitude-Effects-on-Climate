@@ -1,3 +1,5 @@
+
+/* background cover for the entire page */
 body {
 	background-color: whitesmoke;
 }
@@ -6,10 +8,8 @@ body {
 	background-color:#d4f7f79d;
 }
 
-.navbar-brand:hover {
-	color: #b2f8f89d;
-}
 
+/* formating the brand name Latitude */
 .brandname {
 	font-family:  Impact, Verdana;
 	font-size: 20px;
@@ -27,34 +27,28 @@ body {
 
 }
 
-.box_main {
-	margin-top: 150px; 
-	margin-left: 45px;
-	margin-right: 50px;
-	margin-bottom: 150px;
+.box_sum {
 	background-color: white;
-	padding: 20px;
-	position: absolute;
-
+	padding: 30px;
 }
 
 .box_body {
-	margin-top: 20px;
+	/* margin-top: 20px;
 	margin-left: 20px;
 	margin-bottom: 20px;
-	margin-right: 50px;
+	margin-right: 50px; */
 	background-color: white;
 	padding: 20px;
 
 }
 
 .box_vis {
-	margin-top: 150px;
-	margin-left: 15;
-	margin-bottom: auto;
-	margin-right: 50px;
+	/* padding-top: 150px;
+	padding-left: 15;
+	padding-bottom: auto;
+	padding-right: 50px; */
 	background-color: white;
-	padding: 10px;
+	padding: 30px;
 }
 
 .head_cus{
@@ -78,8 +72,8 @@ footer {
 	margin: 10px;
 	height: auto;
 	width: 100%;
-	position: fixed;
-	bottom: 0;
+	position: relative;
+	bottom: -100;
 }
 
 img:hover {
@@ -93,3 +87,83 @@ margin-top: 70px;
 background-color: white;
 }
 
+/* .navbar-brand {
+	margin-left: 50px;
+	background-color: #2eb8b8;
+	width: 200px;
+	max-width: 30%;
+	text-align: center;
+} */
+
+#nbar-format {
+	color: white;
+	font-weight: 700;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	/* font-size: 30px; */
+	font-size: 40px;
+	margin-left: 150px;
+	background-color: #2eb8b8;
+	width: 200px;
+	max-width: 30%;
+	text-align: center;
+	border-radius: 0.5em;
+}
+
+
+.sub-title-font {
+	font-size: 18px;
+}
+
+/* to space out the content from the navbar */
+.row-grid {
+    margin-top: 150px;
+}
+
+/* when screen is smaller than 650, decrease the font size of brand bar Latitude word */
+@media only screen and (max-width:650px) {
+	#nbar-format {
+		font-size: 20px;
+	}
+}
+
+/* when screen is smaller than 1200, decrease the font size of Visualizations word */
+@media only screen and (max-width:1200px) {
+	.head_cus {
+		font-size: 30px;
+	}
+
+	.sub-title-font {
+		font-size: 15px;
+	}
+
+}
+
+/* when screen is smaller than 880, decrease the font size of Visualizations word */
+@media only screen and (max-width:880px) {
+	.head_cus {
+		font-size: 25px;
+	}
+}
+
+
+/* begin to stack at col-md */
+@media only screen and (max-width:766.99px) {
+	
+	.head_cus {
+		font-size: 30px;
+	}
+
+	.box_vis {
+		
+		/* background-color: white; */
+		margin-top: 20px;
+		padding: 20px;
+				
+	}
+}
+
+@media only screen and (max-width:574.99px) {
+	.sub-title-font {
+		font-size: 18px;
+	}
+}
