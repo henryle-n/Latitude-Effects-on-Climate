@@ -18,6 +18,8 @@ body {
 	background-color: lightblue;
 }	
 
+
+/* format text inside the text body of each graph */
 .body_text {
 	color : black;
 	font-size : 20px;
@@ -27,32 +29,23 @@ body {
 
 }
 
+/* format summary box inside column #1 of the bootstrap grid */
 .box_sum {
 	background-color: white;
-	padding: 30px;
+	padding: 20px;
 }
 
-.box_body {
-	/* margin-top: 20px;
-	margin-left: 20px;
-	margin-bottom: 20px;
-	margin-right: 50px; */
+
+/* format box inside column #2 of the bootstrap grid */
+.box_vis {
 	background-color: white;
 	padding: 20px;
-
 }
 
-.box_vis {
-	/* padding-top: 150px;
-	padding-left: 15;
-	padding-bottom: auto;
-	padding-right: 50px; */
-	background-color: white;
-	padding: 30px;
-}
 
+/* format content header */
 .head_cus{
-	color : #2eb8b8 ;
+	color : #2eb8b8d2 ;
 	font-size : 40px;
 	text-align: left;
 	background-color : white;
@@ -87,14 +80,6 @@ margin-top: 70px;
 background-color: white;
 }
 
-/* .navbar-brand {
-	margin-left: 50px;
-	background-color: #2eb8b8;
-	width: 200px;
-	max-width: 30%;
-	text-align: center;
-} */
-
 #nbar-format {
 	color: white;
 	font-weight: 700;
@@ -114,39 +99,67 @@ background-color: white;
 	font-size: 18px;
 }
 
-/* to space out the content from the navbar */
+/* to space out the content from the navbar and surrouding*/
 .row-grid {
-    margin-top: 150px;
+	margin: 25px ;
+    margin-top: 120px;
 }
 
-/* when screen is smaller than 650, decrease the font size of brand bar Latitude word */
-@media only screen and (max-width:650px) {
-	#nbar-format {
-		font-size: 20px;
+
+/* when screen is smaller, decrease the font size of Visualizations word */
+@media only screen and (max-width:1200px) {
+	.head_cus {
+		font-size: 35px;
 	}
 }
 
-/* when screen is smaller than 1200, decrease the font size of Visualizations word */
-@media only screen and (max-width:1200px) {
+/* when screen is smaller, decrease the font size of Visualizations word */
+@media only screen and (max-width:1100px) {
 	.head_cus {
 		font-size: 30px;
+	}
+
+	.sub-title-font {
+		font-size: 17px;
+	}
+
+	#nbar-format {
+		font-size: 25px;
+	}
+
+}
+
+/* when screen is smaller than 880, decrease the font size of Visualizations word */
+@media only screen and (max-width:980px) {
+	.head_cus {
+		font-size: 25px;
 	}
 
 	.sub-title-font {
 		font-size: 15px;
 	}
 
+	.body_text {
+		color : black;
+		font-size : 14px;
+		text-align: left;
+		background-color : white;
+		font-family: Verdana;
 }
 
 /* when screen is smaller than 880, decrease the font size of Visualizations word */
-@media only screen and (max-width:880px) {
+@media only screen and (max-width:850px) {
 	.head_cus {
-		font-size: 25px;
+		font-size: 20px;
 	}
+
+	.sub-title-font {
+		font-size: 12px;
+	}
+
 }
 
-
-/* begin to stack at col-md */
+/* begin to stack at col-md  and reformat all entities*/
 @media only screen and (max-width:766.99px) {
 	
 	.head_cus {
@@ -160,8 +173,28 @@ background-color: white;
 		padding: 20px;
 				
 	}
+
+	.sub-title-font {
+		font-size: 14px;
+	}
+
+	.row-grid {
+		margin-left: 20px;
+		margin-right: 5px;
+		margin-top: 90px;
+	}
+
 }
 
+/* when screen is smaller decrease the font size of brand bar Latitude word */
+@media only screen and (max-width:690px) {
+	#nbar-format {
+		font-size: 20px;
+	}
+}
+
+
+/* when the screen is extremely small, stack all charts and resize subtitle text */
 @media only screen and (max-width:574.99px) {
 	.sub-title-font {
 		font-size: 18px;
