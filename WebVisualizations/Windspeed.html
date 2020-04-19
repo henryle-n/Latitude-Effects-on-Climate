@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-  <title>Weather Visualization</title>
+  <title>Weather-Windspeed</title>
 
   <!-- Bring in bootstrap and custom made CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -74,25 +74,22 @@
       <!--first column in this row-->
       <div class="col-md-8 col-sm-12">
         <div class="box_main">
-          <h1 class="head_cus">Summary: Latitude vs. X</h1>
+          <h1 class="head_cus">Windspeed</h1>
           <hr>
           <div class="row">
             <div class="col">
-              <img src="Resources/assets/images/Fig1.png" 
-              class="img-fluid" alt="Fig1-Error" align="left" >
-              <p class="body_text">
-                The purpose of this project is to analyze how weather changes
-                as you get closer to the equator. To accomplish this analysis, 
-                we first pulled data from the OpenWeatherMap API to assemble a
-                dataset on over 500 cities.
-                <br>
-                <br>
-                After assembling the dataset, we used MatPlotLib to plot various 
-                aspects of the weather vs. Latitude. factors we looked at included:
-                Temperature, Cloudiness, Windspeed, and Humidity. This site provides
-                the source data and Visualizations created as part of the analysis,
-                as well as explainations and descriptions of any trends and correlations.
-              </p>  
+                <img src="Resources/assets/images/Fig4.png" 
+                class="img-fluid" alt="Fig4-Error" align="left" >
+                <p class="body_text">
+                    Same as cloudiness and humidity data of 500 cities, there is
+                    no obvious relationship between latitude and windspeed.
+                    However, these are worth noticing facts upon reviewing the graph:
+                </p>
+                <ul class="body_text">
+                    <li>Majority of the windspeed is in the low range from 2-10 mph.</li>
+                    <li>The highest observed windspeed from the dataset is 35+ mph.</li>
+                </ul>
+
             </div>
           </div>  
 
