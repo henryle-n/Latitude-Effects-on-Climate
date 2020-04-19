@@ -105,6 +105,21 @@ background-color: white;
     margin-top: 120px;
 }
 
+/* space out button from left edge */
+button{
+	margin-right: 30px;	  
+}
+
+
+/* configure entire navbar background */
+.navbar-expand-lg {
+	background-color: #ffffff;
+	}
+
+/* adjust button spacing from the left */
+.nav {
+	padding-right: 30px;
+}
 
 /* when screen is smaller, decrease the font size of Visualizations word */
 @media only screen and (max-width:1200px) {
@@ -129,10 +144,15 @@ background-color: white;
 
 }
 
-/* when screen is smaller than 880, decrease the font size of Visualizations word */
+/* when screen is smaller, decrease the font size of Visualizations word */
 @media only screen and (max-width:980px) {
 	.head_cus {
 		font-size: 25px;
+	}
+
+	/* add some cushion for the nav bar */
+	.navbar-brand {
+		padding: 10px; 
 	}
 
 	.sub-title-font {
@@ -145,6 +165,29 @@ background-color: white;
 		text-align: left;
 		background-color : white;
 		font-family: Verdana;
+	}
+}
+
+
+/* change background color of navbar when the drop down button appears */
+@media only screen and (max-width: 992px) {
+	.navbar-expand-lg {
+		background-color: #2eb8b8;
+		}
+		.navbar {
+		  height : auto;
+		  padding: 0px;
+		}
+		
+		#navbarTogglerDemo02{
+			background-color: white;
+			padding: 20px;
+		}
+
+		
+	
+	
+
 }
 
 /* when screen is smaller than 880, decrease the font size of Visualizations word */
