@@ -4,9 +4,9 @@
 <head>
 
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Weather-Windspeed</title>
+  <title>Windspeed</title>
 
   <!-- Bring in bootstrap and custom made CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,25 +15,22 @@
 
 
 <body>
-
+  <!-- connect to bootstrap & custom CSS files -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script> src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-
-
-<!-- create the entire navigation bar and fix it to the top of the page
-        and dynamically collapsed when page becomes small-->
+  <!-- ======================== NAVIGATION BAR ====================================== -->
+  <!-- create the entire navigation bar and fix it to the top of the page
+  and dynamically collapsed when page becomes small-->
   <nav class="navbar fixed-top mb-5 shadow 
       navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" 
-    text-white 
-    style="background-color: #e3f2fd;"
-    href="index.html">
+    <a class="navbar-brand" id="nbar-format"  href="index.html">
     Latitude
     </a>
-   
+    
+    <!-- create navbar buttons -->
     <button class="navbar-toggler" type="button" 
     data-toggle="collapse" data-target="#navbarTogglerDemo02" 
     aria-controls="navbarTogglerDemo02" aria-expanded="false" 
@@ -41,43 +38,52 @@
     <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- this is for collapsing incase of small screen -->
+    <!-- this is for collapsing all buttons incase of small screen -->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      
+      
+      <!-- ml-auto:: for align all box to the left -->
+      <!-- create a list of buttons -->
+      <ul class=" nav navbar-nav ml-auto">
 
         <!-- This is the drop down for the "Plots" button -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Plots</a>        
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="Temperature.html">Temperature</a>
             <a class="dropdown-item" href="Humidity.html">Humidity</a>
             <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="Windspeed.html">Windspeed</a>
           </div>
         </li>
 
+        <!-- these are for other buttons -->
         <li class="nav-item active">
           <a class="nav-link" href="Comparison.html">Comparison <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Data.html">Data</a>
         </li>
-      
+      </ul>
     </div>
   </nav>
+  <!-- ================= END OF NAVIGATION BAR ============================= -->
 
 
+  <!-- ================== CREATE CONTENTS ============================= -->
+  <!-- create contents of the page -->
   <div class="container-fluid">
-    <!-- 2 main frames to hold landing page -->
-    <div class="row">
-      <!--first column in this row-->
-      <div class="col-md-8 col-sm-12">
-        <div class="box_main">
-          <h1 class="head_cus">Windspeed</h1>
-          <hr>
-          <div class="row">
-            <div class="col">
+    <!-- row inside container to hold columns -->
+      <div class="row row-grid">
+
+        <!-- this is for the summary on the left, 1st col -->
+        <div class="col-md-8 col-sm-12">
+          <div class="box_sum">
+            <h1 class="head_cus">Windspeed</h1>
+            <hr>
+            <div class="row">
+              <div class="col">
                 <img src="Resources/assets/images/Fig4.png" 
                 class="img-fluid" alt="Fig4-Error" align="left" >
                 <p class="body_text">
@@ -89,73 +95,82 @@
                     <li>Majority of the windspeed is in the low range from 2-10 mph.</li>
                     <li>The highest observed windspeed from the dataset is 35+ mph.</li>
                 </ul>
-
-            </div>
-          </div>  
-
+              </div>
+            </div>  
+          </div>
         </div>
-      </div>
-  
-        <!-- 2 main frames to hold landing page -->
-      
+       
         <!--second column in this row-->
-      <div class="col-md-4 col-sm-12">
-        <div class="box_vis">
-          <h1 class="head_cus">Visualizations</h1>
-          <hr><br>
-            <!-- FIRST ROW OF THUMBNAILS -->
+        <div class="col-md-4 col-sm-12">
+          <div class="box_vis">
+            <h1 class="head_cus">Visualizations</h1>
+            <hr><br>
+
+            <!-- Nested grid inside the 2nd col -->
             <div class="row">
-              <div class="col-6">
+
+              <!-- 1st Picture-->
+              <div class="col-md-6 col-sm-3">
                 <a href="Temperature.html">
                   <img src="Resources/assets/images/Fig1.png" 
                   class= "img-thumbnail" 
                   alt="Fig1-Error">
-                  Max Temperature
+                  <p class="sub-title-font">Max Temperature</p>
                 </a>                
               </div>
-              <div class="col-6">
+
+              <!-- 2nd Picture-->
+              <div class="col-md-6 col-sm-3">
                 <a href="Humidity.html">
                   <img src="Resources/assets/images/Fig2.png" 
                   class="img-thumbnail" 
                   alt="Fig2-Error">
-                  Humidity
+                  <p class="sub-title-font">Humidity</p>
               </a>
               </div>
-            </div>
-            <br>  <!--give it a break in between-->
-            <!-- SECOND ROW OF THUMBNAILS -->
-            <div class="row">   
-              <div class="col-6">
+            
+              <!-- 3rd Picture-->
+              <div class="col-md-6 col-sm-3">
                 <a href="Cloudiness.html">
                   <img src="Resources/assets/images/Fig3.png" 
                   class="img-thumbnail" 
                   alt="Fig3-Error">
-                  Cloudiness
+                  <p class="sub-title-font">Cloudiness</p>
                 </a>
               </div>
-              <div class="col-6">
+
+              <!-- 4th Picture-->
+              <div class="col-md-6 col-sm-3">
                 <a href="Windspeed.html">
                   <img src="Resources/assets/images/Fig4.png" 
                   class="img-thumbnail" 
                   alt="Fig4-Error">
-                  Windspeed
+                  <p class="sub-title-font">Windspeed</p>
                 </a>
               </div>
             </div>
-        </div>
-      </div>
-    </div>
+            <!-- end of nesting grid -->
+          </div>
+        </div>   
+        <!--this is the end of Visualizations-->
+    </div> 
+    <!--this is the end of entire 2 columns in this page-->
+  </div>
+  <!-- =================== END OF CREATING CONTENTS ======================== -->
+  
+  
+  
+  <!-- =================== CREATE FOOTER =============================== -->
+  <div>
+    <footer>
+      <p align="center">    
+      Author: Henry Le <br>
+      Date: Aprl. 19, 2020
+      </p>
+    </footer>
   </div>
 
-<div>
-  <footer>
-    <p align="center">    
-    Author: Henry Le <br>
-    Date: Aprl. 19, 2020
-    </p>
-  </footer>
-</div>
+  <!-- ================== END OF CREATING CONTENTS ====================== -->
 
 </body>
-
 </html>
