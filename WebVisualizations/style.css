@@ -1,0 +1,48 @@
+body {
+	background-color: whitesmoke;
+}
+
+.brandname {
+	font-family:  Impact, Verdana;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	background-color: lightblue;
+}	
+
+.body_text {
+	color : black;
+	font-size : 20px;
+	text-align: left;
+	background-color : white;
+	font-family: Verdana;
+
+}
+
+.box_main {
+	margin-top: 150px;
+	margin-left: 45px;
+	margin-right: 50px;
+	margin-bottom: 150px;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.box_body {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.box_vis {
+	margin-top: 150px;
+	margin-left: 15;
+	margin-bottom: auto;
+	margin-right: 50px;
+	background-color: white;
+	padding: 20px;
