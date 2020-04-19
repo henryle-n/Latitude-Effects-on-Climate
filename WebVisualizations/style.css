@@ -2,6 +2,14 @@ body {
 	background-color: whitesmoke;
 }
 
+.nav-link:hover {
+	background-color:#d4f7f79d;
+}
+
+.navbar-brand:hover {
+	color: #b2f8f89d;
+}
+
 .brandname {
 	font-family:  Impact, Verdana;
 	font-size: 20px;
@@ -74,19 +82,14 @@ footer {
 	bottom: 0;
 }
 
-
-
 img:hover {
 	background-color: rgba(129, 217, 247, 0.452);
 }
-
 
 .box_comparison {
 padding: 30px;
 margin: 50px;
 margin-top: 150px;
 background-color: white;
-
-
-
 }
+
