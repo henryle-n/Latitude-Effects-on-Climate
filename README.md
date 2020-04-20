@@ -9,7 +9,8 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
   
   
 ![HTML/CSS/BootStrap](WebVisualizations/Images/ReadmePic.png)  
-
+  
+  
 ## Tools | Languages | Techniques  
   * HTML-5 | CSS-3 | BootStrap 4 | Python  
   * Pandas | CSV to DataFrame | DataFrame to HTML  
@@ -18,10 +19,10 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
 ## Table of Contents  
   * **Images**: folder contains README.md background picture
   * **Resources**:  
-        - *assets/images* : folder contains all images use on webpages  
-        - *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
+        * *assets/images* : folder contains all images use on webpages  
+        * *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
   * **Cloudiness.html** : webpage to shows cloudiness vs. latitudes graphs and analysis  
   * **Comparison.html** : webpage to shows all plotted parameters vs. latitudes for easy comparison between different categories 
   * **Data.html** : webpage to shows all raw data in an easy-to-read format 
-  * **Humidity** : webpage to shows humidity vs. latitudes graphs and analysis  
+  * **Humidity.html** : webpage to shows humidity vs. latitudes graphs and analysis  
   
