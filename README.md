@@ -12,9 +12,14 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
   
   
 ## Tools | Languages | Techniques  
-- HTML-5 | CSS-3 | BootStrap 4 | Python  
+- HTML-5 | CSS-3 | BootStrap-4 | Python  
 - Pandas | CSV to DataFrame | DataFrame to HTML  
 - Jupyter Notebook | Google Chrome ver. 84 | Visual Studio Code | GitHub.io Web Hosting | Git Bash  
+- BootStrap highlights:  
+  - *NavBar* : navigation bar on top of the page  
+  - *Flex Box* : builds footer to show author name and date of completion  
+  - *Custom Grid* : splits webpage into well organized layout based on 12-column grid system  
+  
 
 ## Table of Contents  
 - **Images**: folder contains README.md background picture  
