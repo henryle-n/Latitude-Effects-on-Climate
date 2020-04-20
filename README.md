@@ -19,8 +19,8 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
 ## Table of Contents  
   - **Images**: folder contains README.md background picture  
   - **Resources**:  
-        * *assets/images* : folder contains all images use on webpages  
-        * *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
+        - *assets/images* : folder contains all images use on webpages  
+        - *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
   - **Cloudiness.html** : webpage to shows cloudiness vs. latitudes graphs and analysis  
   - **Comparison.html** : webpage to shows all plotted parameters vs. latitudes for easy comparison between different categories 
   - **Data.html** : webpage to shows all raw data in an easy-to-read format 
