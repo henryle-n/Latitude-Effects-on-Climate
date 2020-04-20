@@ -12,17 +12,22 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
   
   
 ## Tools | Languages | Techniques  
-  * HTML-5 | CSS-3 | BootStrap 4 | Python  
-  * Pandas | CSV to DataFrame | DataFrame to HTML  
-  * Jupyter Notebook | Google Chrome ver. 84 | Visual Studio Code | GitHub.io Web Hosting | Git Bash  
+  - HTML-5 | CSS-3 | BootStrap 4 | Python  
+  - Pandas | CSV to DataFrame | DataFrame to HTML  
+  - Jupyter Notebook | Google Chrome ver. 84 | Visual Studio Code | GitHub.io Web Hosting | Git Bash  
 
 ## Table of Contents  
-  * **Images**: folder contains README.md background picture
-  * **Resources**:  
+  - **Images**: folder contains README.md background picture  
+  - **Resources**:  
         * *assets/images* : folder contains all images use on webpages  
         * *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
-  * **Cloudiness.html** : webpage to shows cloudiness vs. latitudes graphs and analysis  
-  * **Comparison.html** : webpage to shows all plotted parameters vs. latitudes for easy comparison between different categories 
-  * **Data.html** : webpage to shows all raw data in an easy-to-read format 
-  * **Humidity.html** : webpage to shows humidity vs. latitudes graphs and analysis  
+  - **Cloudiness.html** : webpage to shows cloudiness vs. latitudes graphs and analysis  
+  - **Comparison.html** : webpage to shows all plotted parameters vs. latitudes for easy comparison between different categories 
+  - **Data.html** : webpage to shows all raw data in an easy-to-read format 
+  - **Humidity.html** : webpage to shows humidity vs. latitudes graphs and analysis  
+  - **PandasToHTML.ipynb** : jupyter notebook file contains source code to convert from CSV to HTML table  
+  - **Temperature.html** : webpage to shows temperature vs. latitudes graphs and analysis  
+  - **Windspeed.html** : webpage to shows windspeed vs. latitudes graphs and analysis
+  - **index.html** : main webpage
+  - **style.css** : custom CSS format file for all webpages 
   
