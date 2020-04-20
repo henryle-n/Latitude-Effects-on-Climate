@@ -22,6 +22,11 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
   
 
 ## Table of Contents  
+  
+**NOTE**: The main folder contains all files is **WebVisualizations**  
+
+### Inside this folder:
+  
 - **Images**: folder contains README.md background picture  
 - **Resources**:  
   - *assets/images* : folder contains all images used on webpages  
