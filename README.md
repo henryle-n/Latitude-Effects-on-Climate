@@ -36,3 +36,7 @@ https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html
 - **index.html** : main webpage  
 - **style.css** : custom CSS format file for all webpages 
 
+## Summary  
+- HTML provides the skeleton to layout the web content
+- BootStrap and CSS provide easy custom formats and decorations
+- Project took total of ~30 hours for writting codes, researching for custom format and debugging errors
