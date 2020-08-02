@@ -25,7 +25,7 @@ As this is a simple website with multiple webpages, GitHub IO is chosen for simp
 * Software/ Applications:
   * Jupyter Notebook | Google Chrome ver. 84 | Visual Studio Code | Git Bash | Windows Terminal | Python Server
 * HTML/ CSS Libraries:
-  * <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">BootStrap-4:</a>  
+  * <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap-4:</a>  
     * *Navbar*: collapsible navigation bar depending on screen size with "_Hamburger_" menu button
     * *Flexbox*: for page footer  
     * *Grid System*: screen-adaptive content formating
@@ -63,5 +63,5 @@ As this is a simple website with multiple webpages, GitHub IO is chosen for simp
 ## 6. How to Use
 All source codes are store in this repository. To download to local PC:
 * `git clone https://github.com/henryle-n/Latitude-Effects-on-Climate.git` 
-
-* Highly recommend to check out BootStrap <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">(access here)</a> official website and documentation. This libraries contain so many feature that beautify web design well & efficiently for web developer.
+* Make sure Bootstrap API and style sheet links are correct.
+* Highly recommend to check out Bootstrap official website and documentation <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">(access here)</a>. This library contains many features that can beautify a variety of web designs & increase work efficiency for web developers.
