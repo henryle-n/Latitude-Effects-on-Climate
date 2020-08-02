@@ -6,11 +6,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Windspeed</title>
+  <title>Cloudiness</title>
 
   <!-- Bring in bootstrap and custom made CSS stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./../static/css/style.css">
 </head>
 
 
@@ -24,7 +24,8 @@
   <!-- ======================== NAVIGATION BAR ====================================== -->
   <!-- create the entire navigation bar and fix it to the top of the page
   and dynamically collapsed when page becomes small-->
-  <nav class="navbar fixed-top mb-5 shadow navbar-expand-lg navbar-light">
+  <nav class="navbar fixed-top mb-5 shadow 
+      navbar-expand-lg navbar-light">
     <a class="navbar-brand" id="nbar-format"  href="index.html">
     Latitude
     </a>
@@ -43,7 +44,7 @@
       
       <!-- ml-auto:: for align all box to the left -->
       <!-- create a list of buttons -->
-      <ul class="nav ml-auto navbar-nav">
+      <ul class=" nav navbar-nav ml-auto">
 
         <!-- This is the drop down for the "Plots" button -->
         <li class="nav-item dropdown">
@@ -79,21 +80,24 @@
         <!-- this is for the summary on the left, 1st col -->
         <div class="col-md-8 col-sm-12">
           <div class="box_sum">
-            <h1 class="head_cus">Windspeed</h1>
+            <h1 class="head_cus">Cloudiness</h1>
             <hr>
             <div class="row">
               <div class="col">
-                <img src="Resources/assets/images/Fig4.png" 
-                class="img-fluid" alt="Fig4-Error" align="left" >
+                <img src="./../static/images/Fig3.png" 
+                class="img-fluid" alt="Fig1-Error" align="left" >
                 <p class="body_text">
-                    Same as cloudiness and humidity data of 500+ cities, there is
-                    no obvious relationship between latitude and windspeed.
-                    However, these are worth noticing facts upon reviewing the graph:
+                    Analyzing the cloudiness data of 500 cities, there is
+                    no obvious relationship between latitudes and cloudiness.
+                    However, these are worth noticing facts:
                 </p>
                 <ul class="body_text">
-                    <li>Majority of the windspeed is in the low range from 2-10 mph.</li>
-                    <li>The highest observed windspeed from the dataset is 48mph.</li>
-                </ul>
+                    <li>More clouds concentrated at latitudes of &gt30-deg North and &lt0-deg.</li>
+                    <li>"Zero", ~76%, ~90% cloudiness are most likely to occur.</li>
+                    <li>No cloudiness observation &gt80-deg North and &lt60-deg South. 
+                        This is could be due to the fact that no weather station or city available nearby at these locations.
+                    </li>
+                </ul> 
               </div>
             </div>  
           </div>
@@ -111,7 +115,7 @@
               <!-- 1st Picture-->
               <div class="col-md-6 col-sm-3">
                 <a href="Temperature.html">
-                  <img src="Resources/assets/images/Fig1.png" 
+                  <img src="./../static/images/Fig1.png" 
                   class= "img-thumbnail" 
                   alt="Fig1-Error">
                   <p class="sub-title-font">Max Temperature</p>
@@ -121,7 +125,7 @@
               <!-- 2nd Picture-->
               <div class="col-md-6 col-sm-3">
                 <a href="Humidity.html">
-                  <img src="Resources/assets/images/Fig2.png" 
+                  <img src="./../static/images/Fig2.png" 
                   class="img-thumbnail" 
                   alt="Fig2-Error">
                   <p class="sub-title-font">Humidity</p>
@@ -131,7 +135,7 @@
               <!-- 3rd Picture-->
               <div class="col-md-6 col-sm-3">
                 <a href="Cloudiness.html">
-                  <img src="Resources/assets/images/Fig3.png" 
+                  <img src="./../static/images/Fig3.png" 
                   class="img-thumbnail" 
                   alt="Fig3-Error">
                   <p class="sub-title-font">Cloudiness</p>
@@ -141,7 +145,7 @@
               <!-- 4th Picture-->
               <div class="col-md-6 col-sm-3">
                 <a href="Windspeed.html">
-                  <img src="Resources/assets/images/Fig4.png" 
+                  <img src="./../static/images/Fig4.png" 
                   class="img-thumbnail" 
                   alt="Fig4-Error">
                   <p class="sub-title-font">Windspeed</p>
