@@ -1,15 +1,15 @@
-# Weather Analysis Website
-## Background
-Weather of more than 500 cities were analyzed to investigate how weather is changing with Latitudes. All results and graphs are published online for public access through GitHub portal. Webpage is fully functional where different data types can be accessed thru series of buttons. Custome grid is ultilized to automatically reformat the contents to fit different sceen resolutions from large (TVs, big monitors, etc.) to xtra small devices (cellphones, small tablets,etc.)
+# Effects of Latitude on Climate
+## 1. Background
+It's too hot at the equator, should it be cooler if traveling North? Many will answer yes as a common sense; equator should be the hottest place on Earth. In this project, weather of more than 500 cities were analyzed to investigate how weather is changing with latitudes and help answer this question. All results and graphs are published online for public access through GitHub IO. Webpage is fully functional where different data types can be accessed thru series of buttons. Custome grid is ultilized to automatically reformat the contents to fit different sceen resolutions from large (TVs, big monitors, etc.) to xtra small devices (cellphones, small tablets,etc.)
+ 
+#### Quick Demo:
 
-This repository contains the source codes for creating the webpage and its custom format files.  
+<div align="center" >
+<img style="border: 2px solid black" src="./static/images/demo.gif" width=700px/>
+</div>
 
-### Website Access via: 
+## 2. Website Deployment: 
 https://henryle-n.github.io/Web-Design-Challenge/WebVisualizations/index.html  
-  
-  
-![HTML/CSS/BootStrap](WebVisualizations/Images/ReadmePic.png)  
-  
   
 ## Tools | Languages | Techniques  
 - HTML-5 | CSS-3 | BootStrap-4 | Python  
