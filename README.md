@@ -29,20 +29,22 @@ As this is a simple website with multiple webpages, GitHub IO is chosen for simp
   
 
 ## 4. Table of Contents  
-  
-* **Images**: folder contains README.md background picture  
-* **Resources**:  
-  * *assets/images* : folder contains all images used on webpages  
-  * *cities.csv* : raw data that were analyzed and processed for data analysis & visualizations  
-* **Cloudiness.html** : webpage to shows cloudiness vs. latitudes graphs and analysis  
-* **Comparison.html** : webpage to shows all plotted parameters vs. latitudes for easy comparison between different categories 
-* **Data.html** : webpage to shows all raw data in an easy-to-read format 
-* **Humidity.html** : webpage to shows humidity vs. latitudes graphs and analysis  
-* **PandasToHTML.ipynb** : jupyter notebook file contains source code to convert from CSV to HTML table  
-* **Temperature.html** : webpage to shows temperature vs. latitudes graphs and analysis  
-* **Windspeed.html** : webpage to shows windspeed vs. latitudes graphs and analysis  
-* **index.html** : main webpage  
-* **style.css** : custom CSS format file for all webpages 
+* **Data:** original CSV climate data of all analyzed cities around the world.
+* **Jupyter Notebook:** brought in CSV and convert to HTML table, which is used for _Data.html_.
+* **static:**
+  * **/css/style.css** : CSS for all webpages.
+  * **images**: all pictures showing on each webpage and Readme.
+* **weather-analysis:** all webpages of this project: 
+  * **Cloudiness.html**: shows cloudiness vs. latitudes graphs and analysis.  
+  * **Comparison.html**: shows all plotted parameters vs. latitudes for easy comparison between different categories.
+  * **Data.html**: shows all raw data in an easy-to-read format.
+  * **Humidity.html**: shows humidity vs. latitudes graphs and analysis.  
+  * **Temperature.html**: shows temperature vs. latitudes graphs and analysis.  
+  * **Windspeed.html**: shows windspeed vs. latitudes graphs and analysis. 
+  * **index.html**: main webpage. 
+ 
+*  
+
 
 ## Summary  
 * HTML provides the skeleton to layout the web content
