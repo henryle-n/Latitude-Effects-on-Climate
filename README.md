@@ -14,7 +14,7 @@ It's too hot at the equator, should it be cooler if traveling North? Many will a
 ## 2. Website Deployment:
 As this is a simple website with multiple webpages, GitHub IO is chosen for simplicity. All webpages are fully functional and inter-connected where different data types can be accessed clicking at different buttons & graphs. Bootstrap grid system is ultilized to automatically reformat the contents for different screen sizes from large (TVs, big monitors, etc.) to xtra small devices (cellphones, small tablets, etc.)
 
-<a href="https://henryle-n.github.io/Latitude-Effects-on-Climate/weather-analysis/index.html  ">Click here</a> to access the website.
+<a href="https://henryle-n.github.io/Latitude-Effects-on-Climate/weather-analysis/index.html  "><b>Click here</b></a> to access the deployed website.
 
   
 ## 3. Languages, Tools & Techniques  
